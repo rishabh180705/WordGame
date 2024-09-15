@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Game</title>
+    <link rel="stylesheet" href="word.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Game</h1>
+        <textarea id="wordInput" placeholder="Enter your word or sentence here..."></textarea>
+        <div class="controls">
+            <button onclick="toLowerCase()">Lower Case</button>
+            <button onclick="toUpperCase()">Upper Case</button>
+            <button onclick="reverseText()">Reverse</button>
+            <button onclick="removeExtraSpaces()">Remove Extra Spaces</button>
+            <button onclick="clearInput()">Clear</button>
+            <button onclick="speakText()">Speak</button>
+            <button onclick="copyText()">Copy</button>
+            <button onclick="addWord()">Add Word</button>
+        </div>
+        <p id="addedWords"><strong>Added Words: </strong></p>
+    </div>
+    <script src="word.js"></script>
+</body>
+</html>
